@@ -84,7 +84,7 @@ if escolha == 6:
     else:
         refri = 350 * (homens+mulheres+criancas)
         print(f"Comprar {refri}ml de refrigerante")
-
+    # TODO não dividir igualmente entre as carnes
     carnes = homens * 350 + mulheres * 250 + criancas * 150
     carnes_por_opcao = carnes / opcoes_carne
     if "Boi" in carne:
