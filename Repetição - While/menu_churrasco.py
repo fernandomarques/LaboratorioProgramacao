@@ -49,7 +49,7 @@ while True:
 ''')
             opcao = int(input("> "))
             # TODO se a opção já estiver marcada, desmarcar
-            if opcao == 1:
+            if opcao == 1 and boi == " ":
                 boi = "X"
                 carne += "Boi "
                 opcoes_carne += 1
